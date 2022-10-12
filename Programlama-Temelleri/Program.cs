@@ -23,29 +23,29 @@ public class Program
         -const   <veri tipi>  <değişken adı>  =  değer;
         ÖRNEK:   const double pi = 3.14;
         */
-        //1. algoritma
-        /* Console.WriteLine("Sayi Giriniz: ");
-          int sayi = Convert.ToInt32(Console.ReadLine());
-           if (sayi > 0)
-           {
-               Console.WriteLine("Sayı pozitiftir.");
-           }
-           else if (sayi < 0)
-           {
-               Console.WriteLine("Sayı negatiftir.");
-           }
-           else if (sayi == 0)
-           {
-               Console.WriteLine("Sayı 0 a eşittir.");
-           }*/
-        //2.algoritma
-        /* int i = 0;
+       //1. algoritma
+      /* Console.WriteLine("Sayi Giriniz: ");
+         int sayi = Convert.ToInt32(Console.ReadLine());
+          if (sayi > 0)
+          {
+              Console.WriteLine("Sayı pozitiftir.");
+          }
+          else if (sayi < 0)
+          {
+              Console.WriteLine("Sayı negatiftir.");
+          }
+          else if (sayi == 0)
+          {
+              Console.WriteLine("Sayı 0 a eşittir.");
+          }
+       //2.algoritma
+         int i = 0;
          while (i < 10)
          {
              Console.WriteLine("Enis");
              i++;
-         }*/
-        /* Console.WriteLine("adınızı giriniz");
+         }
+         Console.WriteLine("adınızı giriniz");
          string ad = Console.ReadLine();
          Console.WriteLine("sayı giriniz");
          int sayi = Convert.ToInt32(Console.ReadLine());
@@ -54,53 +54,105 @@ public class Program
          {
              Console.WriteLine(ad);
              i++;
-         }*/
-        //3.algoritma
-        /* int i = 0;
+         }
+       //3.algoritma
+         int i = 0;
          while(i <= 10)
          {
              Console.WriteLine(i);
              i = i + 2;
-         }*/
-        /* int i = 1;
+         }
+         int i = 1;
          int toplam = 0;
          while (i <= 10)
          {
              toplam = toplam + i;
              i++;
          }
-         Console.WriteLine("Toplam = {0}", toplam);*/
-        //4.algoritma
-        /* int i = 0;
+         Console.WriteLine("Toplam = {0}", toplam);
+       //4.algoritma
+         int i = 0;
          int toplam = 0;
          while( i <= 20)
          {
              toplam = toplam + i;
              i = i + 2;
          }
-         Console.WriteLine("Toplam = {0}",toplam);*/
-        //5.algoritma
-       /* int sayac = 0;
-        int toplam = 0;
-        Console.WriteLine("sayi gir");
-        while (sayac < 10)
-        {
-            if (sayac < 10)
-            {
-                int sayi = Convert.ToInt32(Console.ReadLine());
-                sayac = sayac + 1;
+         Console.WriteLine("Toplam = {0}",toplam);
+       //5.algoritma
+         int sayac = 0;
+         int toplam = 0;
+         Console.WriteLine("sayi gir");
+         while (sayac < 10)
+           {
+               if (sayac < 10)
+               {
+                   int sayi = Convert.ToInt32(Console.ReadLine());
+                   sayac = sayac + 1;
+                   toplam = toplam + sayi;
+                   sayac++;
+               }
+           }
+          Console.WriteLine("Toplam = {0}", toplam);
+        //6.algoritma
+          Console.WriteLine("1.sayi:");
+          int bas = Convert.ToInt32(Console.ReadLine());
+          Console.WriteLine("2.sayi:");
+          int son = Convert.ToInt32(Console.ReadLine());
+          int sayac = bas;
+          Console.WriteLine(sayac);
+          while(sayac < son)
+          {
+              sayac = sayac + 1;
+              Console.WriteLine(sayac);
+          }
+          sayac++;
+        //7.algoritma,
+          Console.WriteLine("1.sayi:");
+          int i =Convert.ToInt32(Console.ReadLine());
+          Console.WriteLine("2.sayi:");
+          int x = Convert.ToInt32(Console.ReadLine());
+          Console.WriteLine(i + x);
+          Console.WriteLine(i * x);
+          Console.WriteLine(i / x);
+          Console.WriteLine(i - x);
+        //8.algoritma
+          Console.WriteLine("sayi gir");
+          int sayi1 = Convert.ToInt32(Console.ReadLine());
+          Console.WriteLine("sayi gir");
+          int sayi2 = Convert.ToInt32(Console.ReadLine());
+          int sonuc = (sayi1 + sayi2) /2;
+          Console.WriteLine("Ortalama = {0}",sonuc);
+        //9.algoritma
+          Console.WriteLine("uzunluğu gir ");
+          int uzunluk = Convert.ToInt32(Console.ReadLine());
+          int cevre = uzunluk * 4;
+          Console.WriteLine("Karenin çevresi ={0}", cevre);
+          int alan = uzunluk * uzunluk;
+          Console.WriteLine("Karenin alanı = {0}", alan);
+        //10.algoritma
+          Console.WriteLine("sayi gir");
+          int sayi1 = Convert.ToInt32(Console.ReadLine());
+          Console.WriteLine("sayi gir");
+          int sayi2 = Convert.ToInt32(Console.ReadLine());
+          if (sayi1 > sayi2)
+          {
+             Console.WriteLine(sayi1 - sayi2);
+          }
+          else if (sayi2 > sayi1)
+          {
+             int sonuc = (sayi1- sayi2)*-1;
+             Console.Write(sonuc);
+          }
+          else
+          {
+             return;
+          }*/
 
-                toplam = toplam + sayi;
-                sayac++;
-            }
-        }
-            
-
-            Console.WriteLine("Toplam = {0}", toplam);*/
-       //6.algoritma
 
 
-        
+
     }
 }
-       
+
+
