@@ -1,0 +1,15 @@
+C:\Users\enise\OneDrive\Desktop\repos\cs-odev\cs-odev\bin\Debug\net6.0\cs-odev.exe
+C:\Users\enise\OneDrive\Desktop\repos\cs-odev\cs-odev\bin\Debug\net6.0\cs-odev.deps.json
+C:\Users\enise\OneDrive\Desktop\repos\cs-odev\cs-odev\bin\Debug\net6.0\cs-odev.runtimeconfig.json
+C:\Users\enise\OneDrive\Desktop\repos\cs-odev\cs-odev\bin\Debug\net6.0\cs-odev.dll
+C:\Users\enise\OneDrive\Desktop\repos\cs-odev\cs-odev\bin\Debug\net6.0\cs-odev.pdb
+C:\Users\enise\OneDrive\Desktop\repos\cs-odev\cs-odev\obj\Debug\net6.0\cs-odev.csproj.AssemblyReference.cache
+C:\Users\enise\OneDrive\Desktop\repos\cs-odev\cs-odev\obj\Debug\net6.0\cs-odev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enise\OneDrive\Desktop\repos\cs-odev\cs-odev\obj\Debug\net6.0\cs-odev.AssemblyInfoInputs.cache
+C:\Users\enise\OneDrive\Desktop\repos\cs-odev\cs-odev\obj\Debug\net6.0\cs-odev.AssemblyInfo.cs
+C:\Users\enise\OneDrive\Desktop\repos\cs-odev\cs-odev\obj\Debug\net6.0\cs-odev.csproj.CoreCompileInputs.cache
+C:\Users\enise\OneDrive\Desktop\repos\cs-odev\cs-odev\obj\Debug\net6.0\cs-odev.dll
+C:\Users\enise\OneDrive\Desktop\repos\cs-odev\cs-odev\obj\Debug\net6.0\refint\cs-odev.dll
+C:\Users\enise\OneDrive\Desktop\repos\cs-odev\cs-odev\obj\Debug\net6.0\cs-odev.pdb
+C:\Users\enise\OneDrive\Desktop\repos\cs-odev\cs-odev\obj\Debug\net6.0\cs-odev.genruntimeconfig.cache
+C:\Users\enise\OneDrive\Desktop\repos\cs-odev\cs-odev\obj\Debug\net6.0\ref\cs-odev.dll
