@@ -103,7 +103,7 @@
             Console.WriteLine(val[1]);*/
             //  string nm = "Enis";//
             //  string nm2 = "Melis";//
-            string[] names = new string[5];
+           /* string[] names = new string[5];
             names[0] = "Enis";
             names[1] = "Denis";
             names[2] = "Wnis";
@@ -116,9 +116,61 @@
             nums[3] = 8;
             nums[4] = 9;
             Console.WriteLine(names[4]);
-            Console.WriteLine(nums[4]);
-
-
+            Console.WriteLine(nums[4]);*/
+            /*   string[] isimler = { "Yasin", "Bora", "Eftalya", "Hatice", "Melih" };
+            var cevap = Array.FindAll(isimler, eleman => eleman.Contains('a'));
+            Console.WriteLine(cevap[2]);
+            Array.ForEach(cevap, eleman =>
+            {
+                Console.WriteLine(eleman);
+            });
+            Ft_strlen(isimler[0] + isimler[1] + isimler[2] + isimler[3] + isimler[4]);*/
+            //10.11.2022
+            /*Datetime Methods*/
+            /* DateTime pt = DateTime.Now;
+            /*  //ToLongDateString
+              Console.WriteLine($"ToLongDateString:{pt.ToLongDateString()}");
+              Console.WriteLine($"ToShortDateString:{pt.ToShortDateString()}");
+              Console.WriteLine($"ToLongTimeString:{pt.ToLongTimeString()}");
+              Console.WriteLine($"ToShortTimeString:{pt.ToShortTimeString()}");
+              Console.WriteLine($"Year:{pt.Year}");
+              Console.WriteLine($"Day:{pt.Day}");
+              Console.WriteLine($"DayOfWeek:{pt.DayOfWeek}");
+              Console.WriteLine($"Hour:{pt.Hour}");
+              Console.WriteLine($"Minute:{pt.Minute}");
+              Console.WriteLine($"Second:{pt.Second}");
+            DateTime nd = pt.AddDays(2).AddYears(-12).AddMonths(5).AddHours(5).AddMinutes(30).AddSeconds(40).AddMilliseconds(49);
+            Console.WriteLine(nd);
+            DateTime a7 = new(2001, 12, 20, 7, 0, 0);
+            Console.WriteLine(a7);
+            TimeSpan aa = pt - a7;
+            Console.WriteLine("toplam yıl: {0}", aa.Days / 360);
+            // stringle biçimleme
+            //bu format gün ay yılı sayısal gösterir.
+            Console.WriteLine("d formatı = {0}", pt.ToString("d"));
+            //gün ay yılı uzun olarak verir.
+            Console.WriteLine("D formatı = {0}", pt.ToString("D"));
+            Console.WriteLine("t formatı = {0}", pt.ToString("t"));
+            Console.WriteLine("T formatı = {0}", pt.ToString("T"));
+            Console.WriteLine("f formatı = {0}", pt.ToString("f"));
+            Console.WriteLine("F formatı = {0}", pt.ToString("F"));
+            Console.WriteLine("y formatı = {0}", pt.ToString("y"));
+            //uzun formatlı ToString() kullanımı
+            Console.WriteLine("dd = {0}", pt.ToString("ddd"));
+            Console.WriteLine("MM = {0}", pt.ToString("MMM"));
+            Console.WriteLine("YY = {0}", pt.ToString("yyyy"));
+            //12 lik saat
+            Console.WriteLine("hh = {0}", pt.ToString("hh"));
+            //24 lük saat
+            Console.WriteLine("HH= {0}", pt.ToString("HH"));
+            //dakika
+            Console.WriteLine("mm= {0}", pt.ToString("mm"));
+            //saniye
+            Console.WriteLine("ss= {0}", pt.ToString("ss"));
+            Console.WriteLine(pt.ToString("dd MMMM ddd yyyy HH:mm:ss"));
+            //ülkelere  göre kullanım
+            CultureInfo culture = new CultureInfo("es");
+            Console.WriteLine(pt.ToString("dd MMMM ddd yyyy HH:mm:ss", culture));*/
         }
     }
 }
